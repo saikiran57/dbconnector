@@ -1,0 +1,8 @@
+[requires]
+poco/1.12.4
+
+[options]
+Poco:enable_data_mysql=True
+
+[generators]
+cmake

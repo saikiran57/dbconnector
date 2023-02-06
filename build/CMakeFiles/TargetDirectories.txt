@@ -1,0 +1,3 @@
+C:/Users/hp/source/repos/dbconnector/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/hp/source/repos/dbconnector/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/hp/source/repos/dbconnector/build/dbconnector/CMakeFiles/dbconnector.dir

@@ -1,0 +1,30 @@
+Name                Account Number           Transaction Number       Merchant                 Transaction Amount       
+Michael Smith       11111                    1                        CFA In                   1009.9                   
+Michael Smith       11111                    15                       KROGER                   2300                     
+Gotter Nieves       13986                    1                        ETT*ES                   3956.95                  
+John Doe            22222                    1                        CFA In                   1009.9                   
+John Doe            22222                    10                       Best B                   10000                    
+John Doe            22222                    11                       Best B                   1755.91                  
+Rulapaugh Kati      31593                    2                        NORTH                    859.75                   
+Dilliard Leota      32628                    16                       IN *PO                   1677.85                  
+Jane Doe            33333                    1                        McDona                   1009.9                   
+Monica Abel         33555                    1                        CFA In                   1009.9                   
+Monica Abel         33555                    10                       Best B                   10000                    
+Monica Abel         33555                    11                       Best B                   1755.91                  
+Inouye Veronika     33717                    97                       CINFIN                   3785                     
+Inouye Veronika     33717                    43                       MIDWES                   3505.28                  
+Skursky Benton      35903                    1                        KICKFU                   1663.71                  
+Ruth Green          37222                    1                        SHELL                    1009.9                   
+Morasca Simona      38829                    65                       CFA In                   1009.9                   
+Morasca Simona      38829                    129                      230 WE                   1263.27                  
+Morasca Simona      38829                    76                       230 WE                   1266.56                  
+Joseph Dark         43991                    1                        CFA In                   1009.9                   
+Artie Venn          44891                    1                        CFA In                   1009.9                   
+Artie Venn          44891                    10                       Best B                   10000                    
+Artie Venn          44891                    11                       Best B                   1755.91                  
+Don Fuller          53111                    1                        CFA In                   1009.9                   
+Mirasca Sam         53222                    1                        CFA In                   1009.9                   
+Mirasca Sam         53222                    10                       Kohls	                   725.51                   
+Dilliard Smith      54722                    1                        CFA In                   1009.9                   
+Anthony West        54891                    1                        CFA In                   1009.9                   
+May Wilson          54999                    1                        CFA In                   1009.9                   

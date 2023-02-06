@@ -1,0 +1,5 @@
+# ninja log v5
+13	1802	6971875542516858	dbconnector/CMakeFiles/dbconnector.dir/dbconnector.cpp.obj	1e08e5314a490a75
+1806	2370	6971875547951438	dbconnector/dbconnector.exe	3eb913786680ac2c
+42	5837	6972340128609541	dbconnector/CMakeFiles/dbconnector.dir/dbconnector.cpp.obj	5d149518193e9bd3
+29	5002	6972341583915608	dbconnector/CMakeFiles/dbconnector.dir/MysqlClient.cpp.obj	75ce5d1187dc9eba

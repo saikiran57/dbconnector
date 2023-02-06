@@ -1,0 +1,5 @@
+C:/Users/hp/source/repos/dbconnector/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/source/repos/dbconnector/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/hp/source/repos/dbconnector/out/build/x64-debug/dbconnector/CMakeFiles/dbconnector.dir
+C:/Users/hp/source/repos/dbconnector/out/build/x64-debug/dbconnector/CMakeFiles/edit_cache.dir
+C:/Users/hp/source/repos/dbconnector/out/build/x64-debug/dbconnector/CMakeFiles/rebuild_cache.dir

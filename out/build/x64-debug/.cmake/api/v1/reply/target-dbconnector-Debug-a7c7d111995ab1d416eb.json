@@ -1,0 +1,526 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/dbconnector.exe"
+		},
+		{
+			"path" : "bin/dbconnector.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"conan_global_flags",
+			"conan_basic_setup",
+			"target_link_libraries",
+			"add_compile_options",
+			"include_directories",
+			"set_property"
+		],
+		"files" : 
+		[
+			"dbconnector/CMakeLists.txt",
+			"build/conanbuildinfo.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1343,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1846,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 1857,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1839,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc   /MDd /Zi /Ob0 /Od /RTC1 "
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DXML_STATIC"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DPCRE2_STATIC"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DPOCO_NO_AUTOMATIC_LIBS"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DPOCO_STATIC=ON"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DPOCO_UNBUNDLED"
+				},
+				{
+					"fragment" : "-std:c++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/poco/1.12.4/_/_/package/b9fd8b5b0181d12f03a3a7138fe7518d734c5489/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/pcre2/10.40/_/_/package/fd9a9b62bf1e3522e49e4c006b72bc34a2070df3/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/expat/2.5.0/_/_/package/8e589e066a19f700666be77ed94ff8e8bc88ee10/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/sqlite3/3.39.4/_/_/package/d4c90a44e87a0129d6c89e58d1337c25a5bec2b4/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/libpq/14.5/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/.conan/2ab360/1/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/zlib/1.2.13/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/bzip2/1.0.8/_/_/package/53b5fd22ba061620078deefdae9a437c5f693201/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/openssl/1.1.1s/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/zstd/1.5.2/_/_/package/634eb14beaa4acb3dd5f1de8d7774c7748dabed3/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/hp/.conan/data/lz4/1.9.4/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				3
+			]
+		}
+	],
+	"id" : "dbconnector::@3f77b928ca555a4d0e06",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc   /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64   /debug /INCREMENTAL  /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\poco\\1.12.4\\_\\_\\package\\b9fd8b5b0181d12f03a3a7138fe7518d734c5489\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\pcre2\\10.40\\_\\_\\package\\fd9a9b62bf1e3522e49e4c006b72bc34a2070df3\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\expat\\2.5.0\\_\\_\\package\\8e589e066a19f700666be77ed94ff8e8bc88ee10\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\sqlite3\\3.39.4\\_\\_\\package\\d4c90a44e87a0129d6c89e58d1337c25a5bec2b4\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\libpq\\14.5\\_\\_\\package\\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\.conan\\2ab360\\1\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\zlib\\1.2.13\\_\\_\\package\\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\bzip2\\1.0.8\\_\\_\\package\\53b5fd22ba061620078deefdae9a437c5f693201\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\openssl\\1.1.1s\\_\\_\\package\\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\zstd\\1.5.2\\_\\_\\package\\634eb14beaa4acb3dd5f1de8d7774c7748dabed3\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\hp\\.conan\\data\\lz4\\1.9.4\\_\\_\\package\\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoDataMySQLmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoDataPostgreSQLmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoDataSQLitemd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoEncodingsmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoJWTmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoMongoDBmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoNetSSLmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoCryptomd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoRedismd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoNetmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoZipmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoUtilmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoJSONmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoXMLmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoActiveRecordmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoDatamd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "PocoFoundationmd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "pcre2-posix-static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "pcre2-8-static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "pcre2-16-static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "pcre2-32-static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libexpatMD.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "sqlite3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libpq.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libpgport.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libpgcommon.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "mysqlclient.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "zlib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "bz2.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libssl.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libcrypto.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "zstd_static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lz4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "iphlpapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "shell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "wldap32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "dnsapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "secur32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "crypt32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "user32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "bcrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "dbconnector",
+	"nameOnDisk" : "dbconnector.exe",
+	"paths" : 
+	{
+		"build" : "dbconnector",
+		"source" : "dbconnector"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dbconnector/dbconnector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dbconnector/dbconnector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "dbconnector/MysqlClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "dbconnector/MysqlClient.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
